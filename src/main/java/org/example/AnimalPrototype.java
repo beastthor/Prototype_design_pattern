@@ -1,2 +1,5 @@
-package org.example;public interface AnimalPrototype {
+package org.example;
+
+interface AnimalPrototype {
+    AnimalPrototype clone();
 }
